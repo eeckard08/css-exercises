@@ -1,13 +1,19 @@
-body {
-    font-family: verdana, sans-serif;
+p.odd {
+    background-color: rgb(255, 153, 153, .75);
+    font-size: 36px;
+    font-family: Verdana, sans-serif;
+}
+p.oddly-cool {
+    font-size: 24px;
+
+}
+#two {
+    color: #0000ff; 
     font-size: 36px;
 
 }
-p {
-    background-color: rgb(255, 153, 153, .75);
-}
-div {
-    color: #0000ff; 
+#four {
+    background-color: rgb(153, 255, 155, .75);
     font-size: 24px;
-
+    font-weight:bold;
 }
