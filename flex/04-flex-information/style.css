@@ -24,3 +24,21 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* solution */
+
+.title {
+  display: flex; /* this turns the title part into a flex box container */
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.plants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  text-align: center;
+}
+.column {
+  flex-direction: row-reverse;
+  max-width: 200px;
+}
