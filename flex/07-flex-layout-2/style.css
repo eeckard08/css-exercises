@@ -18,6 +18,7 @@ body {
 
 .sidebar {
   width: 300px;
+  padding:  16px;
   background: royalblue;
 }
 
@@ -31,48 +32,46 @@ body {
   display: flex; /* this turns the entire body into a flex box container */
   flex-direction: column; /* this changes the direction to fix the footer to bottom */
 }
+.header {
+  display: flex; /* this makes the header into a container*/
+  font-size: 32px; /* this changes the font size */
+  font-weight: 900; /* this changes the font weight */
+  padding: 0 16px; /* this adds some padding onto the left side */
+  align-items: center; /* this puts the contents of the container centered on the y axis */
+}
+.meat{
+  display: flex;
+  flex: 1;
+}
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
 ul {
   list-style-type: none; /* this takes away bullets */
   margin: 0; /* this removes margin */
   padding: 0; /* this removes the padding */
 }
+li  {
+  margin-bottom: 16px;
+}
 a {
   text-decoration: none;
   color: white;
-  size: 24px;
-}
-.meat{
-  display: flex;
-  flex-grow: 1;
-}
-.sidebar {
-  flex-shrink: 0;
-  padding: 16px;
-  text-decoration: none;
+  font-size: 24px;
 }
 .cardholder {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 15px;
-  padding: 30px;
+  padding: 32px;
 }
 .card {
-  padding: 15px;
-  font-size: 12px;
+  padding: 16px;
+  margin: 16px;
   width: 300px;
-  height: 300px;
-}
-.header {
-  display: flex; /* this makes the header into a container*/
-  font-size: 32px; /* this changes the font size */
-  font-weight: 900; /* this changes the font weight */
-  padding-left: 16px; /* this adds some padding onto the left side */
-  align-items: center; /* this puts the contents of the container centered on the y axis */
 }
 .footer {
   display: flex;
-  flex-shrink: 0;
   justify-content: center;
   align-items: center;
 
